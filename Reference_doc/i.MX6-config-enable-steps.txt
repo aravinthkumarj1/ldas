@@ -1,0 +1,17 @@
+
+**************************************************
+		(-LDAAS
+**************************************************
+
+1) Enable ETHERNET - r8169
+	
+	=> Enable PCI
+	=> Enable r8169 driver
+
+2) Enable AUDIO - CS4299
+
+	=> Enable CONFIG_SND_SOC_ALL_CODECS
+		=> It's automatically enable following configs
+ 
+			=> CONFIG_SND_AC97_CODEC
+			=> CONFIG_SND_VMASTER
