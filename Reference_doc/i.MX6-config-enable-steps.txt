@@ -4,11 +4,13 @@
 **************************************************
 
 1) Enable ETHERNET - r8169
+										(driver/net/ethernet/realtek/r8169.c)
 	
 	=> Enable PCI
 	=> Enable r8169 driver
 
 2) Enable AUDIO - CS4299
+										(sound/pci/ac97/ac97_codec.c)
 
 	=> Enable CONFIG_SND_SOC_ALL_CODECS
 		=> It's automatically enable following configs
