@@ -7,7 +7,7 @@
 										(driver/net/ethernet/realtek/r8169.c)
 	
 	=> Enable PCI
-	=> Enable r8169 driver
+	=> Enable r8169 driver  (CONFIG_R8169)
 
 2) Enable AUDIO - CS4299
 										(sound/pci/ac97/ac97_codec.c)
